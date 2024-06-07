@@ -1,0 +1,16 @@
+runtime: nodejs18
+instance_class: F2
+
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'
+  DATABASE_NAME: 'postgres'
+  DATABASE_USER: 'postgres'
+  DATABASE_PASSWORD: 'uz-gabt-strapi-db'
+  INSTANCE_CONNECTION_NAME: 'uz-gabt-strapi:europe-west3:uz-gabt-strapi-db'
+  GCS_BUCKET_NAME: 'uz-gabt-strapi-bucket'
+  GCS_BASE_PATH: 'cms'
+  PGDATABASE: 'postgres'
+  PGUSER: 'postgres'
+beta_settings:
+  cloud_sql_instances: 'uz-gabt-strapi:europe-west3:uz-gabt-strapi-db'

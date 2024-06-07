@@ -1,0 +1,17 @@
+runtime: nodejs18
+instance_class: F2
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'staging'
+  DATABASE_NAME: 'uz-gabt-strapi-staging-db'
+  DATABASE_USER: 'postgres'
+  DATABASE_PASSWORD: 'uz-gabt-strapi-staging-db'
+  INSTANCE_CONNECTION_NAME: 'uz-gabt-strapi-staging:us-west3:uz-gabt-strapi-staging-db'
+  GCS_BUCKET_NAME: 'uz-gabt-strapi-staging-bucket'
+  GCS_BASE_PATH: 'cms'
+  PGDATABASE: 'postgres'
+  PGUSER: 'postgres'
+  POSTGRES_USER: 'postgres'
+  POSTGRES_DB: 'postgres'
+beta_settings:
+  cloud_sql_instances: 'uz-gabt-strapi-staging:us-west3:uz-gabt-strapi-staging-db'
